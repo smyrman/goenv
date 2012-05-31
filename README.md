@@ -4,8 +4,8 @@ Goenv
 A tool similar to virtualenv for Python, but for Go. It lets you creare a
 "virtual environment" where you install go packages.
 
-It should work for terminal emulators that are configured to use Bash.  Feel
-welcome to implement support for more shells, e.g. on Windows.
+It should work for terminal emulators that are configured to use Bash.  You
+are more than welcome to implement support for more shells, e.g. on Windows.
 
 Usage
 -----

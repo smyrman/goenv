@@ -36,7 +36,8 @@ Issue:
 
 	$ go get github.com/smyrman/goenv
 
-If you have not set up a user level GOPATH, and prepended "$GOPATH/bin" to your
-PATH environment variable, you might need to issue the command as root.
+If you have installed Go as root, and not set up a user level GOPATH, and
+prepended "$GOPATH/bin" to your PATH environment variable, you might need to
+issue the command as root.
 
 Feel free to create a proper package for your distro, if you want to.

@@ -19,8 +19,8 @@ Avctivate an environment:
 
 	$ . <path to environment>/sourceme.bash
 
-The shell prompt will now be prefixed with the goenv folder name to indicate that
-the goenv is active. You may have noted that the prefix has a certain color.
+The shell prompt will now be prefixed with the environment's folder name to indicate
+that the environment is active. You may have noted that the prefix has a certain color.
 This color was chosen randomly when you ran the goenv command. To set a new random
 color, run the goenv command again.
 

@@ -19,10 +19,10 @@ Avctivate an environment:
 
 	$ . <path to environment>/sourceme.bash
 
-The shell prompt will now be prefixed with the environment's folder name to indicate
-that the environment is active. You may have noted that the prefix has a certain color.
-This color was chosen randomly when you ran the goenv command. To set a new random
-color, run the goenv command again.
+The shell prompt will now be prefixed with the environment's folder name to
+indicate that the environment is active. You may have noted that the prefix has
+a certain color.  This color was chosen randomly when you ran the goenv
+command. To set a new random color, run the goenv command again.
 
 Deactivate an active environment:
 
@@ -36,7 +36,7 @@ Issue:
 
 	$ go get github.com/smyrman/goenv
 
-If you have installed Go as root, and not set up a user level GOPATH, and
+If you have installed Go as root, and not set up a user level GOPATH and
 prepended "$GOPATH/bin" to your PATH environment variable, you might need to
 issue the command as root.
 

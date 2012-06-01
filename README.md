@@ -9,7 +9,7 @@ Goenv should work for most Unix variants as long as the terminal emulator is
 configured to use *Bash*. For MacOSX, everything except the C library
 support is expected to work. You are welcome to implement support for more
 shells and operating systems if you want to, e.g. for the
-*Windows Command Prompt* or full Bash support on Mac OS X or Windows.
+*Windows Command Prompt* or full Bash support on MacOSX or Windows.
 
 
 Usage

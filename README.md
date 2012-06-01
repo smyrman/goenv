@@ -1,8 +1,9 @@
 Goenv
 =====
 
-A tool similar to virtualenv for Python, but for Go. It lets you creare a
-"virtual environment" where you install go packages.
+A tool similar to virtualenv for Python, but for Go. It lets you create an
+isolated environment where you install go packages, binaries, or even C
+libraries.
 
 Goenv should work for terminal emulators that are configured to use Bash.  You
 are welcome to implement support for more shells if you want to, e.g. for the
@@ -11,17 +12,17 @@ are welcome to implement support for more shells if you want to, e.g. for the
 Usage
 -----
 
-Create or update an environemnt:
+Create or update an environment:
 
 	$ goenv <path to environment>
 
-Avctivate an environment:
+Activate an environment:
 
 	$ . <path to environment>/sourceme.bash
 
 The shell prompt will now be prefixed with the environment's folder name to
 indicate that the environment is active. You may have noted that the prefix has
-a certain color.  This color was chosen randomly when you ran the goenv
+a certain color.  This color was chosen randomly when you ran the *goenv*
 command. To set a new random color, run the goenv command again.
 
 Deactivate an active environment:
@@ -36,8 +37,8 @@ Issue:
 
 	$ go get github.com/smyrman/goenv
 
-If you have installed Go as root, and not set up a user level GOPATH and
-prepended "$GOPATH/bin" to your PATH environment variable, you might need to
-issue the command as root.
+If you have installed Go as root, and you have not set up a user level GOPATH
+and prepended "$GOPATH/bin" to your PATH environment variable, you might need
+to issue the command as root.
 
 Feel free to create a proper package for your distro, if you want to.

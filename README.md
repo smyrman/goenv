@@ -1,7 +1,7 @@
 Goenv
 =====
 
-Goenv lets you create an isolated environment where you install go packages,
+Goenv lets you create an isolated environment where you install Go packages,
 binaries, or even C libraries.
 
 Goenv should work for most Unix variants as long as the terminal emulator is

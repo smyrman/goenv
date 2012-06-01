@@ -5,9 +5,12 @@ A tool similar to virtualenv for Python, but for Go. It lets you create an
 isolated environment where you install go packages, binaries, or even C
 libraries.
 
-Goenv should work for terminal emulators that are configured to use Bash.  You
-are welcome to implement support for more shells if you want to, e.g. for the
-*Windows Command Prompt*.
+Goenv should work for most Unix variants as long as the terminal emulator is
+configured to use *Bash*. For MacOSX, everything except the C library
+support is expected to work. You are welcome to implement support for more
+shells and operating systems if you want to, e.g. for the
+*Windows Command Prompt* or full *Bash* support on MacOSX or Windows.
+
 
 Usage
 -----

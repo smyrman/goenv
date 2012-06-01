@@ -1,9 +1,8 @@
 Goenv
 =====
 
-A tool similar to virtualenv for Python, but for Go. It lets you create an
-isolated environment where you install go packages, binaries, or even C
-libraries.
+Goenv lets you create an isolated environment where you install go packages,
+binaries, or even C libraries.
 
 Goenv should work for most Unix variants as long as the terminal emulator is
 configured to use *Bash*. For MacOSX, everything except the C library

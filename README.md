@@ -44,3 +44,11 @@ and prepended "$GOPATH/bin" to your PATH environment variable, you might need
 to issue the command as root.
 
 Feel free to create a proper package for your distro, if you want to.
+
+
+Origin
+------
+
+The goenv tool was originally developed for use in the robot Loke (eng:Loki),
+that participated in the Eurobot competition in France in 2012
+(http://eurobot-ntnu.no).
